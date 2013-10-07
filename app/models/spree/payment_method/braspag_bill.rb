@@ -6,7 +6,7 @@ module Spree
     preference :instructions, :string, :default => 'Instrucoes para pagamento do boleto'
     preference :bank, :string, :default => 'real'
 
-    attr_accessible :preferred_days_to_due, :preferred_instructions, :preferred_bank
+    #attr_accessible :preferred_days_to_due, :preferred_instructions, :preferred_bank
 
     def actions
       %w{capture void}

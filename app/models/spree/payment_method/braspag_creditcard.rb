@@ -3,7 +3,7 @@ module Spree
     preference :max_parcels, :integer, default: 1
     preference :minimun_parcel_value, :float, default: 10.0
 
-    attr_accessible :preferred_max_parcels, :preferred_minimun_parcel_value
+    #attr_accessible :preferred_max_parcels, :preferred_minimun_parcel_value
 
     def payment_source_class
       Spree::BraspagCreditcard

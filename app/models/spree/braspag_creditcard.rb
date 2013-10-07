@@ -1,6 +1,6 @@
 module Spree
   class BraspagCreditcard < ActiveRecord::Base
-    attr_accessible :expiration, :holder, :number_payments, :payment_method, :number, :month, :year, :security_code
+    #attr_accessible :expiration, :holder, :number_payments, :payment_method, :number, :month, :year, :security_code
 
     attr_accessor :number, :month, :year, :security_code
 
